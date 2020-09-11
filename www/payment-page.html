@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Payment - My Market</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=0c313ea03f3bf89f8065dcff490438c4">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/css/general.css?h=4dcce0f413a6c31e9cf90c43350443da">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css?h=38a515b6b30123300b3619cce6411cec">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar py-2">
+        <div class="container"><a class="navbar-brand logo" href="index.html">My Market</a><button data-toggle="collapse" class="navbar-toggler border-0 shadow-0 p-0" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><img class="rounded-circle shadow-0" height="46px" src="assets/img/profile.jpg?h=70576f1ac4846e05fab0d79d7970750e"></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto top-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-post-list.html">Feed</a></li>
+                    <li class="nav-item dropdown my-account-dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">My Account</a>
+                        <div class="dropdown-menu my-account-nav px-3" role="menu">
+                            <form class="form-inline w-100" action="explore.html">
+                                <div class="form-group w-100">
+                                    <div class="input-group w-100"><input class="form-control" type="text" name="business_search" placeholder="Search for a business here">
+                                        <div class="input-group-append"><button class="btn btn-secondary" type="button">Search</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="dropdown-divider" role="presentation"></div>
+                            <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="profile.html"><i class="fas fa-user-tie"></i><span>Profile</span></a><a class="btn btn-outline-info m-2" role="button" href="explore.html"><i class="fas fa-user-friends"></i><span>Clients</span></a>
+                                <a
+                                    class="btn btn-outline-info m-2" role="button" href="customers.html"><i class="fas fa-users"></i><span>Customers</span></a><a class="btn btn-outline-info m-2" role="button" href="#"><i class="fas fa-store-alt"></i><span>My Businesses</span></a><a class="btn btn-outline-info m-2" role="button"
+                                        href="#"><i class="fas fa-mail-bulk"></i><span>Messages</span></a><a class="btn btn-outline-info m-2" role="button" href="wishlist.html"><i class="fas fa-bookmark"></i><span>Wishlist</span></a></div>
+                        </div>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page payment-page">
+        <section class="clean-block payment-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Payment</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <form>
+                    <div class="products">
+                        <h3 class="title">Checkout</h3>
+                        <div class="item"><span class="price">$200</span>
+                            <p class="item-name">Product 1</p>
+                            <p class="item-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="item"><span class="price">$120</span>
+                            <p class="item-name">Product 2</p>
+                            <p class="item-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="total"><span>Total</span><span class="price">$320</span></div>
+                    </div>
+                    <div class="card-details">
+                        <h3 class="title">Credit Card Details</h3>
+                        <div class="form-row">
+                            <div class="col-sm-7">
+                                <div class="form-group"><label for="card-holder">Card Holder</label><input class="form-control" type="text" placeholder="Card Holder"></div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="form-group"><label>Expiration date</label>
+                                    <div class="input-group expiration-date"><input class="form-control" type="text" placeholder="MM"><input class="form-control" type="text" placeholder="YY"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="form-group"><label for="card-number">Card Number</label><input class="form-control" type="text" id="card-number" placeholder="Card Number"></div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group"><label for="cvc">CVC</label><input class="form-control" type="text" id="cvc" placeholder="CVC"></div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Proceed</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer data-aos="fade-up" class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="registration.html">Sign up</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="service-page.html">Application Information</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="contact-us.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="pricing.html">Upgrade</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Copyright EMarket.com</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
+    <script src="assets/js/bs-animation.js?h=cc4d20340936b09bec81533dd59db3a8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js?h=975b2635c9a06eae9f47d6cae8158a12"></script>
+    <script src="assets/js/theme.js?h=71aba39b0f467f6bf2a91abfa84abae9"></script>
+</body>
+
+</html>

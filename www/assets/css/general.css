@@ -1,0 +1,42 @@
+.stick-under-navig {
+  position: sticky;
+  top: 62px;
+  z-index: 90;
+}
+
+@media (min-width: 992px) {
+  .top-nav {
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-account-dropdown {
+    position: static;
+  }
+}
+
+@media (min-width:992px) {
+  .my-account-nav {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+  }
+}
+
+.clean-product-item .image {
+  max-width: 220px;
+  max-height: 180px;
+  margin: 0 auto 20px;
+}
+
+.clean-product-item .image img {
+  max-width: 100%;
+  /*max-height: unset;*/
+}
+
+.rate-star-14 img {
+  width: 14px;
+}
+
