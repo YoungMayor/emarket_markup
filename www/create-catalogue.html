@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Shopping Cart - My Market</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=16667d99a29047ea70089b488085b5f2">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=7d466cbc5e17eb2d26833571856c0a3f">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=98a49735ed420ff1094cb21c75dd8271">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=98a49735ed420ff1094cb21c75dd8271">
@@ -36,7 +36,7 @@
                             <div class="dropdown-divider" role="presentation"></div>
                             <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="explore.html"><i class="fas fa-user-friends"></i><span>Clients</span></a><a class="btn btn-outline-info m-2" role="button" href="my-businesses.html"><i class="fas fa-store-alt"></i><span>My Businesses</span></a>
                                 <a
-                                    class="btn btn-outline-info m-2" role="button" href="#"><i class="fas fa-mail-bulk"></i><span>Messages</span></a><a class="btn btn-outline-info m-2" role="button" href="wishlist.html"><i class="fas fa-bookmark"></i><span>Wishlist</span></a></div>
+                                    class="btn btn-outline-info m-2" role="button" href="messages.html"><i class="fas fa-mail-bulk"></i><span>Messages</span></a><a class="btn btn-outline-info m-2" role="button" href="wishlist.html"><i class="fas fa-bookmark"></i><span>Wishlist</span></a></div>
                         </div>
                     </li>
                     <li class="nav-item dropdown my-account-dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">My Business</a>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="col-12"><button class="btn btn-outline-danger btn-block" type="button"><i class="fas fa-trash-alt"></i><span>Remove</span></button></div>
             </div><button class="btn btn-success d-block m-auto" type="button"><i class="fa fa-plus"></i><span>Add Attachment</span></button></div>
-            <div class="form-group">
+            <div class="form-group mb-5">
                 <h4 class="text-uppercase text-center">Specifications</h4>
                 <div class="table-responsive text-center">
                     <table class="table table-striped table-hover table-sm">
@@ -169,6 +169,15 @@
                         </tfoot>
                     </table>
                 </div>
+            </div>
+            <div class="form-group">
+                <h4 class="text-uppercase text-center">Receive Orders By</h4>
+                <div class="input-group">
+                    <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" name="order_email" placeholder="Email address to receive orders" inputmode="email"></div>
+                <div class="input-group">
+                    <div class="input-group-prepend"><span class="input-group-text"><i class="fab fa-whatsapp"></i></span></div><input class="form-control" type="text" name="order_whatsapp" placeholder="Your whatsapp chat link" inputmode="url"></div>
+                <div class="input-group">
+                    <div class="input-group-prepend"><span class="input-group-text"><i class="fab fa-telegram-plane"></i></span></div><input class="form-control" type="text" name="order_telegram" placeholder="Your telegram chat link" inputmode="url"></div>
             </div>
             <div class="form-group"><button class="btn btn-primary ml-auto d-block" type="button"><i class="far fa-save"></i><span>Save</span></button></div>
             </form>
