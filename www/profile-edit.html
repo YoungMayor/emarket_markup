@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Shopping Cart - My Market</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=16667d99a29047ea70089b488085b5f2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/css/general.css?h=0037182c9f9eb382301b7cee47d2a4aa">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css?h=38a515b6b30123300b3619cce6411cec">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="index.html">My Market</a><button data-toggle="collapse" class="navbar-toggler border-0 shadow-0 p-0" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><img class="rounded-circle shadow-0" height="46px" src="assets/img/profile.jpg?h=70576f1ac4846e05fab0d79d7970750e"></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto top-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-post-list.html">Feed</a></li>
+                    <li class="nav-item dropdown my-account-dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">My Account</a>
+                        <div class="dropdown-menu my-account-nav px-3" role="menu">
+                            <form class="form-inline w-100" action="explore.html">
+                                <div class="form-group w-100">
+                                    <div class="input-group w-100"><input class="form-control" type="text" name="business_search" placeholder="Search for a business here">
+                                        <div class="input-group-append"><button class="btn btn-secondary" type="button">Search</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="dropdown-divider" role="presentation"></div>
+                            <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="explore.html"><i class="fas fa-user-friends"></i><span>Clients</span></a><a class="btn btn-outline-info m-2" role="button" href="my-businesses.html"><i class="fas fa-store-alt"></i><span>My Businesses</span></a>
+                                <a
+                                    class="btn btn-outline-info m-2" role="button" href="#"><i class="fas fa-mail-bulk"></i><span>Messages</span></a><a class="btn btn-outline-info m-2" role="button" href="wishlist.html"><i class="fas fa-bookmark"></i><span>Wishlist</span></a></div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown my-account-dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">My Business</a>
+                        <div class="dropdown-menu my-account-nav px-3" role="menu">
+                            <h4 class="text-uppercase text-center">Mayor Technology</h4><small class="form-text text-center text-muted">Current Active Business catch phrase</small>
+                            <div class="dropdown-divider" role="presentation"></div>
+                            <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="profile.html"><i class="fas fa-user-tie"></i><span>Profile</span></a><a class="btn btn-outline-info m-2" role="button" href="customers.html"><i class="fas fa-users"></i><span>Customers</span></a></div>
+                            <div
+                                class="dropdown-divider" role="presentation"></div>
+                        <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="catalog-page-list.html"><span>Catalogs</span></a><a class="btn btn-outline-info m-2" role="button" href="blog-post-list.html"><span>Feeds</span></a></div>
+                        <div class="dropdown-divider"
+                            role="presentation"></div>
+                        <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="create-catalogue.html"><i class="fas fa-plus"></i><span>New Catalog</span></a><a class="btn btn-outline-info m-2" role="button" href="create-feed.html"><i class="fas fa-plus"></i><span>New Feed</span></a></div>
+        </div>
+        </li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About Us</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page shopping-cart-page">
+        <section class="clean-block">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Profile Edit</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <div class="content">
+                    <div class="row p-4">
+                        <div class="col-12 col-md-5 mx-auto">
+                            <h2 class="text-uppercase text-center">Edit Profile</h2>
+                            <form>
+                                <div class="form-group">
+                                    <div class="text-center image-180"><img class="rounded-circle img-fluid" src="assets/img/profile.jpg?h=70576f1ac4846e05fab0d79d7970750e"></div><input class="d-none" type="file" name="avatar" required="" accept="image/*"><button class="btn btn-primary mx-auto d-block" type="button"><i class="fas fa-upload"></i><span>Change Avatar</span></button></div>
+                                <div
+                                    class="form-group"><label>Name</label><input class="form-control" type="text" name="name" value="Meyoron Aghogho" placeholder="Enter your name" required=""></div>
+                        <div class="form-group"><label>About you</label><textarea class="form-control" name="about" placeholder="Say a little about yourself" rows="3">Lorem ipsum et detal </textarea></div>
+                        <div class="form-group"><button class="btn btn-primary ml-auto d-block" type="button"><i class="far fa-save"></i><span>Save</span></button></div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-7 mx-auto">
+                        <h2 class="text-uppercase text-center">Edit Business</h2>
+                        <form>
+                            <div class="form-group">
+                                <div class="text-center image-180"><img class="rounded img-fluid" src="assets/img/mayortech_logo_160.png?h=8be58a04cc7ad7c955a4c318dfa7e720"></div><input class="d-none" type="file" name="avatar" required="" accept="image/*"><button class="btn btn-primary mx-auto d-block" type="button"><i class="fas fa-upload"></i><span>Change Logo</span></button></div>
+                            <div
+                                class="form-group"><button class="btn btn-primary ml-auto d-block" type="button"><i class="far fa-save"></i><span>Save</span></button></div>
+                    </form>
+                    <form>
+                        <div class="form-group"><label>Business Name</label><input class="form-control" type="text" name="name" value="Mayor Technology" placeholder="Name for this business" required=""></div>
+                        <div class="form-group">
+                            <div class="custom-control custom-switch"><input class="custom-control-input" type="checkbox" id="formCheck-edit-link" name="edit-link" checked=""><label class="custom-control-label" for="formCheck-edit-link">Edit Website Link</label></div>
+                        </div>
+                        <div class="form-group"><label>Website Link</label>
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend"><span class="input-group-text">https://example.com/</span></div><input class="bg-secondary form-control text-white" type="text" name="link" value="mayor_technology" required="" pattern="[a-z0-9_]{8,32}">
+                                <div class="input-group-append"><button class="btn btn-primary" type="button">Check</button></div>
+                            </div><small class="form-text text-center text-muted">Website link can only contain alphabets, numerals and underscores.</small><small class="form-text text-center text-danger">NOTE: Changing this automatically invalidates your previous web link and everyone who that has been giving to would immediately lose connection with you.Only your subscribers and customers would be notified of the change of link</small></div>
+                        <div
+                            class="form-group"><label>Catchphrase</label><input class="form-control" type="text" name="catchphrase" value="Lorem ipsum et al fasy" placeholder="Catchphrase for business " required=""></div>
+                <div class="form-group"><label>Business Type</label><textarea class="form-control" name="type" placeholder="Enter business types seperated by a new line" rows="4">Information Technology</textarea><small class="form-text text-center text-muted">Enter multiple business types seperated with a new line</small></div>
+                <div
+                    class="form-group"><label>Address</label><textarea class="form-control" name="address" placeholder="Business address" rows="3">Somewhere in the World</textarea></div>
+            <div class="form-group"><button class="btn btn-primary ml-auto d-block" type="button"><i class="far fa-save"></i><span>Save</span></button></div>
+            </form>
+            <h4 class="text-center">Business Links</h4>
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <form>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" name="email" value="mail.example@carrier.com" placeholder="Your business email address" required="" inputmode="email">
+                                <div
+                                    class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                        </div>
+                </div>
+                </form>
+            </div>
+            <div class="col-12 col-xl-6">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" name="phone" value="+23480 1111 2222" placeholder="Your business line" required="" inputmode="tel">
+                            <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-xl-6">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-globe"></i></span></div><input class="form-control" type="text" name="website" value="www.example.com" placeholder="Your business website" required="" inputmode="url">
+                            <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-xl-6">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text"><i class="fab fa-whatsapp"></i></span></div><input class="form-control" type="text" name="whatsapp" value="08011112222" placeholder="Your business whatsapp number" required="" inputmode="tel">
+                            <div
+                                class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                    </div>
+            </div>
+            </form>
+            </div>
+            <div class="col-12 col-xl-6">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text"><i class="fab fa-telegram-plane"></i></span></div><input class="form-control" type="text" name="telegram" value="08011112222" placeholder="Your business telegram number" required="" inputmode="tel">
+                            <div
+                                class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                    </div>
+            </div>
+            </form>
+            </div>
+            <div class="col-12 col-xl-6">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text"><i class="fab fa-facebook-f"></i></span></div><input class="form-control" type="text" name="facebook" value="facebook.username" placeholder="Your facebook username" required="">
+                            <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-xl-6">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text"><i class="fab fa-twitter"></i></span></div><input class="form-control" type="text" name="twitter" value="twitter.username" placeholder="Your Twitter username" required="">
+                            <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-xl-6">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text"><i class="fab fa-instagram"></i></span></div><input class="form-control" type="text" name="instagram" value="instagram.username" placeholder="Your Instagram username" required="">
+                            <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fas fa-save"></i><span>Save</span></button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+            </div>
+            <div class="col-12 mx-auto mt-4">
+                <h2 class="text-uppercase text-center">OTHER Business</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+                        <div class="clean-product-item">
+                            <div class="image"><img class="img-thumbnail img-fluid d-block mx-auto" src="assets/img/mayortech_logo_160.png?h=8be58a04cc7ad7c955a4c318dfa7e720" loading="lazy"></div>
+                            <div class="product-name">
+                                <h6 class="text-center font-weight-bold">Business Name Here</h6><small class="text-truncate d-block">Lorem ipsum dolor amet dolor ipsum amet cosin dolor tricidas</small></div>
+                            <div class="about">
+                                <div class="rating"><img src="assets/img/star.svg?h=6a5bf50661a8e494efd6f3408b44f8b0"><img src="assets/img/star.svg?h=6a5bf50661a8e494efd6f3408b44f8b0"><img src="assets/img/star.svg?h=6a5bf50661a8e494efd6f3408b44f8b0"><img src="assets/img/star-half-empty.svg?h=52643cdf5581ce4b2bc133d700b32857"><img src="assets/img/star-empty.svg?h=67e3ef1204a154c2af6db4a9eaf69156"></div>
+                                <div><a class="btn btn-outline-info btn-sm" role="button" href="profile.html" target="_blank"><i class="fas fa-search"></i><span>Explore</span></a></div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2"><button class="btn btn-outline-info btn-sm" type="button">Set as Active</button><a class="btn btn-outline-success btn-sm rounded-pill" role="button" href="profile-edit.html" target="_blank"><i class="fas fa-pencil-alt"></i><span>Edit Details</span></a></div>
+                            <div
+                                class="mt-2">
+                                <div class="input-group input-group-sm"><input class="form-control" type="text" value="https://example.com/business_name_here" readonly="">
+                                    <div class="input-group-append"><button class="btn btn-info" type="button">Copy Link</button></div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="clean-product-item">
+                        <div class="image"><img class="img-thumbnail img-fluid d-block mx-auto" src="assets/img/mayortech_logo_160.png?h=8be58a04cc7ad7c955a4c318dfa7e720" loading="lazy"></div>
+                        <div class="product-name">
+                            <h6 class="text-center font-weight-bold">Business Name Here</h6><small class="text-truncate d-block">Lorem ipsum dolor amet dolor ipsum amet cosin dolor tricidas</small></div>
+                        <div class="about">
+                            <div class="rating"><img src="assets/img/star.svg?h=6a5bf50661a8e494efd6f3408b44f8b0"><img src="assets/img/star.svg?h=6a5bf50661a8e494efd6f3408b44f8b0"><img src="assets/img/star.svg?h=6a5bf50661a8e494efd6f3408b44f8b0"><img src="assets/img/star-half-empty.svg?h=52643cdf5581ce4b2bc133d700b32857"><img src="assets/img/star-empty.svg?h=67e3ef1204a154c2af6db4a9eaf69156"></div>
+                            <div><a class="btn btn-outline-info btn-sm" role="button" href="profile.html" target="_blank"><i class="fas fa-search"></i><span>Explore</span></a></div>
+                        </div>
+                        <div class="d-flex justify-content-between mt-2"><button class="btn btn-outline-info btn-sm" type="button">Set as Active</button><a class="btn btn-outline-success btn-sm rounded-pill" role="button" href="profile-edit.html" target="_blank"><i class="fas fa-pencil-alt"></i><span>Edit Details</span></a></div>
+                        <div
+                            class="mt-2">
+                            <div class="input-group input-group-sm"><input class="form-control" type="text" value="https://example.com/business_name_here" readonly="">
+                                <div class="input-group-append"><button class="btn btn-info" type="button">Copy Link</button></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4"><a class="btn btn-outline-secondary btn-block btn-lg d-flex flex-column justify-content-center h-100 py-5 fa-2x" role="button" href="create-business.html" target="_blank"><i class="fas fa-plus"></i><span>Add Business</span></a></div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer data-aos="fade-up" class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="registration.html">Sign up</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="service-page.html">Application Information</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="contact-us.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="pricing.html">Upgrade</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Copyright EMarket.com</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
+    <script src="assets/js/bs-animation.js?h=cc4d20340936b09bec81533dd59db3a8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js?h=975b2635c9a06eae9f47d6cae8158a12"></script>
+    <script src="assets/js/theme.js?h=71aba39b0f467f6bf2a91abfa84abae9"></script>
+</body>
+
+</html>

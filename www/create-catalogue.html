@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Shopping Cart - My Market</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=16667d99a29047ea70089b488085b5f2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css?h=98a49735ed420ff1094cb21c75dd8271">
+    <link rel="stylesheet" href="assets/css/general.css?h=0037182c9f9eb382301b7cee47d2a4aa">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css?h=38a515b6b30123300b3619cce6411cec">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="index.html">My Market</a><button data-toggle="collapse" class="navbar-toggler border-0 shadow-0 p-0" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><img class="rounded-circle shadow-0" height="46px" src="assets/img/profile.jpg?h=70576f1ac4846e05fab0d79d7970750e"></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto top-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="blog-post-list.html">Feed</a></li>
+                    <li class="nav-item dropdown my-account-dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">My Account</a>
+                        <div class="dropdown-menu my-account-nav px-3" role="menu">
+                            <form class="form-inline w-100" action="explore.html">
+                                <div class="form-group w-100">
+                                    <div class="input-group w-100"><input class="form-control" type="text" name="business_search" placeholder="Search for a business here">
+                                        <div class="input-group-append"><button class="btn btn-secondary" type="button">Search</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="dropdown-divider" role="presentation"></div>
+                            <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="explore.html"><i class="fas fa-user-friends"></i><span>Clients</span></a><a class="btn btn-outline-info m-2" role="button" href="my-businesses.html"><i class="fas fa-store-alt"></i><span>My Businesses</span></a>
+                                <a
+                                    class="btn btn-outline-info m-2" role="button" href="#"><i class="fas fa-mail-bulk"></i><span>Messages</span></a><a class="btn btn-outline-info m-2" role="button" href="wishlist.html"><i class="fas fa-bookmark"></i><span>Wishlist</span></a></div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown my-account-dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">My Business</a>
+                        <div class="dropdown-menu my-account-nav px-3" role="menu">
+                            <h4 class="text-uppercase text-center">Mayor Technology</h4><small class="form-text text-center text-muted">Current Active Business catch phrase</small>
+                            <div class="dropdown-divider" role="presentation"></div>
+                            <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="profile.html"><i class="fas fa-user-tie"></i><span>Profile</span></a><a class="btn btn-outline-info m-2" role="button" href="customers.html"><i class="fas fa-users"></i><span>Customers</span></a></div>
+                            <div
+                                class="dropdown-divider" role="presentation"></div>
+                        <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="catalog-page-list.html"><span>Catalogs</span></a><a class="btn btn-outline-info m-2" role="button" href="blog-post-list.html"><span>Feeds</span></a></div>
+                        <div class="dropdown-divider"
+                            role="presentation"></div>
+                        <div class="text-center"><a class="btn btn-outline-info m-2" role="button" href="create-catalogue.html"><i class="fas fa-plus"></i><span>New Catalog</span></a><a class="btn btn-outline-info m-2" role="button" href="create-feed.html"><i class="fas fa-plus"></i><span>New Feed</span></a></div>
+        </div>
+        </li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About Us</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page shopping-cart-page">
+        <section class="clean-block">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Add Catalogue</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <div class="content">
+                    <div class="row p-4">
+                        <div class="col-12 col-md-8 col-lg-7 mx-auto">
+                            <form>
+                                <div class="form-group"><label>Title</label><input class="form-control" type="text" name="title" placeholder="Title for Catalogue"></div>
+                                <div class="form-group"><label>Price</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text">N</span></div><input class="form-control" type="text" name="price" placeholder="Cost of item" required=""></div>
+                                </div>
+                                <div class="form-group"><label>Description</label><textarea class="form-control" name="description" placeholder="Catalogue Description" rows="3" required="">Catalogue Description</textarea>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="form-group"><label>Catalogue Category</label><textarea class="form-control" name="category" placeholder="Enter categories for this catalogue seperated by a new line" rows="4" required="">Categories in lines</textarea>
+                                    <div class="clearfix"></div><small class="form-text text-center text-muted">Enter multiple categories seperated with a new line</small></div>
+                                <div class="form-group mb-5">
+                                    <h4 class="text-uppercase text-center">Gallery</h4>
+                                    <div class="form-row bg-light shadow-sm mb-3 p-1">
+                                        <div class="col-12">
+                                            <div class="form-group"><label>Title</label><input class="form-control" type="text" name="title" placeholder="Attachment Title" required=""></div>
+                                            <div class="form-group"><label>Description</label><textarea class="form-control" name="description" placeholder="Attachment Description"></textarea></div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-row mb-2">
+                                                <div class="col-12 col-sm-6"><label>Media Type</label><select class="custom-select" required=""><option value="image" selected="">Image</option><option value="video">Video</option><option value="youtube">YouTube</option></select>
+                                                    <div
+                                                        class="p-2"><img class="img-fluid" src="assets/img/scenery/image6.jpg?h=26f762ae21fd9cce95e86763ac6154ca"></div><input class="d-none" type="file" required="" accept="image/*"><button class="btn btn-primary d-block m-auto" type="button"><i class="fas fa-upload"></i><span>Upload Image</span></button></div>
+                                            <div
+                                                class="col-12 col-sm-6"><label>Aside</label><textarea class="form-control" name="aside" placeholder="Info abput the media attached" rows="7"></textarea></div>
+                                    </div>
+                                    <div class="form-row mb-2">
+                                        <div class="col-12 col-sm-6"><label>Media Type</label><select class="custom-select" required=""><option value="image">Image</option><option value="video" selected="">Video</option><option value="youtube">YouTube</option></select>
+                                            <div class="p-2"><video class="img-fluid" controls=""></video></div><input class="d-none" type="file" accept="video/*"><button class="btn btn-primary d-block m-auto" type="button"><i class="fas fa-upload"></i><span>Upload Video</span></button></div>
+                                        <div
+                                            class="col-12 col-sm-6"><label>Aside</label><textarea class="form-control" name="aside" placeholder="Info abput the media attached" rows="7"></textarea></div>
+                                </div>
+                                <div class="form-row mb-2">
+                                    <div class="col-12 col-sm-6"><label>Media Type</label><select class="custom-select" required=""><option value="image">Image</option><option value="video">Video</option><option value="youtube" selected="">YouTube</option></select>
+                                        <div class="p-2"><iframe allowfullscreen="" frameborder="0" class="img-fluid"></iframe></div><label>Youtube Video URL</label><input class="form-control" type="text" placeholder="Video Link"></div>
+                                    <div class="col-12 col-sm-6"><label>Aside</label><textarea class="form-control" name="aside" placeholder="Info abput the media attached" rows="7"></textarea></div>
+                                </div>
+                        </div>
+                        <div class="col-12"><button class="btn btn-outline-danger btn-block" type="button"><i class="fas fa-trash-alt"></i><span>Remove</span></button></div>
+                    </div>
+                    <div class="form-row bg-light shadow-sm mb-3 p-1">
+                        <div class="col-12">
+                            <div class="form-group"><label>Title</label><input class="form-control" type="text" name="title" placeholder="Attachment Title" required=""></div>
+                            <div class="form-group"><label>Description</label><textarea class="form-control" name="description" placeholder="Attachment Description"></textarea></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-row mb-2">
+                                <div class="col-12 col-sm-6"><label>Media Type</label><select class="custom-select" required=""><option value="image" selected="">Image</option><option value="video">Video</option><option value="youtube">YouTube</option></select>
+                                    <div class="p-2"><img class="img-fluid" src="assets/img/scenery/image6.jpg?h=26f762ae21fd9cce95e86763ac6154ca"></div><input class="d-none" type="file" required="" accept="image/*"><button class="btn btn-primary d-block m-auto" type="button"><i class="fas fa-upload"></i><span>Upload Image</span></button></div>
+                                <div
+                                    class="col-12 col-sm-6"><label>Aside</label><textarea class="form-control" name="aside" placeholder="Info abput the media attached" rows="7"></textarea></div>
+                        </div>
+                        <div class="form-row mb-2">
+                            <div class="col-12 col-sm-6"><label>Media Type</label><select class="custom-select" required=""><option value="image">Image</option><option value="video" selected="">Video</option><option value="youtube">YouTube</option></select>
+                                <div class="p-2"><video class="img-fluid" controls=""></video></div><input class="d-none" type="file" accept="video/*"><button class="btn btn-primary d-block m-auto" type="button"><i class="fas fa-upload"></i><span>Upload Video</span></button></div>
+                            <div
+                                class="col-12 col-sm-6"><label>Aside</label><textarea class="form-control" name="aside" placeholder="Info abput the media attached" rows="7"></textarea></div>
+                    </div>
+                    <div class="form-row mb-2">
+                        <div class="col-12 col-sm-6"><label>Media Type</label><select class="custom-select" required=""><option value="image">Image</option><option value="video">Video</option><option value="youtube" selected="">YouTube</option></select>
+                            <div class="p-2"><iframe allowfullscreen="" frameborder="0" class="img-fluid"></iframe></div><label>Youtube Video URL</label><input class="form-control" type="text" placeholder="Video Link"></div>
+                        <div class="col-12 col-sm-6"><label>Aside</label><textarea class="form-control" name="aside" placeholder="Info abput the media attached" rows="7"></textarea></div>
+                    </div>
+                </div>
+                <div class="col-12"><button class="btn btn-outline-danger btn-block" type="button"><i class="fas fa-trash-alt"></i><span>Remove</span></button></div>
+            </div><button class="btn btn-success d-block m-auto" type="button"><i class="fa fa-plus"></i><span>Add Attachment</span></button></div>
+            <div class="form-group">
+                <h4 class="text-uppercase text-center">Specifications</h4>
+                <div class="table-responsive text-center">
+                    <table class="table table-striped table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th>Key</th>
+                                <th>Value</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-2"><input class="form-control" type="text" name="key" placeholder="Spec Key" required=""></td>
+                                <td class="py-2"><input class="form-control" type="text" name="value" placeholder="Spec Value" required=""></td>
+                                <td class="py-2"><button class="btn btn-danger" type="button">X</button></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2"><input class="form-control" type="text" name="key" placeholder="Spec Key" required=""></td>
+                                <td class="py-2"><input class="form-control" type="text" name="value" placeholder="Spec Value" required=""></td>
+                                <td class="py-2"><button class="btn btn-danger" type="button">X</button></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2"><input class="form-control" type="text" name="key" placeholder="Spec Key" required=""></td>
+                                <td class="py-2"><input class="form-control" type="text" name="value" placeholder="Spec Value" required=""></td>
+                                <td class="py-2"><button class="btn btn-danger" type="button">X</button></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3"><button class="btn btn-success" type="button"><i class="fa fa-plus"></i><span>Add Specification</span></button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <div class="form-group"><button class="btn btn-primary ml-auto d-block" type="button"><i class="far fa-save"></i><span>Save</span></button></div>
+            </form>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer data-aos="fade-up" class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="registration.html">Sign up</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="service-page.html">Application Information</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="contact-us.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="pricing.html">Upgrade</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Copyright EMarket.com</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
+    <script src="assets/js/bs-animation.js?h=cc4d20340936b09bec81533dd59db3a8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js?h=975b2635c9a06eae9f47d6cae8158a12"></script>
+    <script src="assets/js/theme.js?h=71aba39b0f467f6bf2a91abfa84abae9"></script>
+</body>
+
+</html>
